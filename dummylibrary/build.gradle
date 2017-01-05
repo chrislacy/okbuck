@@ -29,7 +29,7 @@ android {
 }
 
 dependencies {
-    compile project(':libraries:javalibrary')
+    compile project(':javalibrary')
     compile(deps.external.sqlite) {
         exclude module: 'support-annotations'
     }

@@ -33,7 +33,7 @@ android {
 dependencies {
     compile deps.support.appCompat
     compile deps.support.v4
-    compile project(":libraries:javalibrary")
+    compile project(":javalibrary")
     compile project(":libraries:emptylibrary")
     releaseCompile project(path: ':libraries:common', configuration: 'paidRelease')
     debugCompile project(path: ':libraries:common', configuration: 'freeDebug')
